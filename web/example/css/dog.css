@@ -1,0 +1,16 @@
+h1{
+	text-decoration: underline;
+	text-align: center;
+}
+table td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  width:30%;
+  height: 80%;
+  vertical-align: middle;
+  border:0%;
+}
+img{
+	width:80%;
+}

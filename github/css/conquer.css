@@ -1,0 +1,154 @@
+body{
+  font-family: 'Merriweather', serif;
+  background-color: #f1f1f1;
+    }
+h1{
+  font-size:150px;
+  }
+h6{
+  font-size:50px;
+  }
+img{
+  position: relative;
+  width:100%;
+  padding-top: 5px;
+}
+.row {
+  padding-left: 2px;
+  padding:5px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 100%;
+  padding:5px;
+  padding-top: 2px;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #ddd;
+  padding: 5px;
+  padding-top: 2px;
+}
+.centered {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.bttn{
+  color:black;
+  padding: 10px 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+ 
+}
+
+.button {
+  border: none;
+  color: black;
+  padding: 8px 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1{background-color: #4CAF50;}/* Green */
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: brown;} /* brown */ 
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.mid {
+  background: rgba(242,242,242,0.4) none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+  background-color: none;
+}
+
+
+.bg_img{
+  background-image:url('../img/bg-1.jpg');
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.bg1_img{
+  background-image:url('../img/bg-2.jpg');
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align:center;
+}
+.bg3_img{
+  background-image:url('../img/bg-2.jpg');
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align:center;
+
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+
+
+
